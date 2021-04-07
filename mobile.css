@@ -49,10 +49,7 @@ div.hero-section .hero-content-btn {
 }
 
 .hero-background .hero-background-pos {
-    right: 0px;
-    left: 70%;
-    width: 110px;
-    height: 110px;
+    display: none;
 }
 
 .snapshot-box .snapshot-box-content {
@@ -71,8 +68,13 @@ div.hero-section .hero-content-btn {
     width: 75%;
 }
 
-.footer .footer-textarea > textarea {
+.footer .footer-textarea > textarea,
+.footer .footer-btn a {
     width: 75%;
+}
+
+.footer .footer-btn a {
+    text-align: center;
 }
 
 input[type="text"] {
