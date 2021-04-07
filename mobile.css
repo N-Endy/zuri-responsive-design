@@ -1,0 +1,26 @@
+.nav-bar {
+    display: none;
+}
+
+div.logo {
+    margin: 0 -4rem;
+}
+
+.nav-bar .nav-links {
+    display: none;
+}
+
+.nav-bar ul li a {
+    display: block;
+}
+
+.nav-bar a.hamburger {
+    display: flex;
+    margin: 0 -4rem;
+    font-size: 1.7rem;
+    color: #88949B;
+}
+
+.nav-bar a.hamburger:hover {
+    color: #656b6e;
+}

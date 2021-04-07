@@ -44,6 +44,11 @@ ul li a:hover {
     padding: 0.5rem;
 }
 
+.nav-bar .hamburger {
+    display: none;
+}
+
+
 div.hero-section {
     background: #304353;
     padding: 10rem;
