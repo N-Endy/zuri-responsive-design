@@ -24,3 +24,57 @@ div.logo {
 .nav-bar a.hamburger:hover {
     color: #656b6e;
 }
+
+/* Hero Section */
+div.hero-section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.hero-section .hero-content-heading {
+    margin-top: -6rem;
+}
+
+div.hero-section .hero-content-btn {
+    margin-bottom: -6rem;
+}
+
+/* Sub-Hero Section */
+.hero-background .background {
+    margin: -4rem -4rem;
+    height: auto;
+}
+
+.hero-background .hero-background-pos {
+    right: 0px;
+    left: 70%;
+    width: 110px;
+    height: 110px;
+}
+
+.snapshot-box .snapshot-box-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+.footer .footer-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-input > * {
+    margin: 0.75rem 0;
+    width: 75%;
+}
+
+.footer .footer-textarea > textarea {
+    width: 75%;
+}
+
+input[type="text"] {
+    width: 50%;
+}
