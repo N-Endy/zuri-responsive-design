@@ -8,10 +8,13 @@ div.logo {
 
 .nav-bar .nav-links {
     display: none;
+    margin: 0 -5rem;
 }
 
 .nav-bar ul li a {
     display: block;
+    width: 30vw;
+    padding: 0.75rem;
 }
 
 .nav-bar a.hamburger {
